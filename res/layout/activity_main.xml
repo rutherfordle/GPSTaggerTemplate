@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:layout_weight="0.54" >
+    </ListView>
+
+        <Button
+            android:id="@+id/tag1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Pothole"
+            android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tag2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add"
+        android:text="Girlfriend"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tag3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/remove"
+        android:text="puppy"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="menu"
+        android:text="other" />
+
+    </LinearLayout>
+
+
